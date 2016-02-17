@@ -1,0 +1,50 @@
+// // bower:scss
+// // endbower
+// // @import "tools/tools";
+// // @import "base/base";
+// // @import "modules/modules";
+
+// .cat-item{
+// 	width: 50%;
+// 	flex-grow:1;
+// 	overflow: hidden;
+// 	position: relative;
+// 	cursor: pointer;
+// 	background-repeat: no-repeat;
+// 	background-size: cover;
+// 	background-position: center center;
+// 	@media (min-width: 600px){
+// 		width: 33.3333%;
+// 	}
+// 	&:hover{
+// 		.cat-item_text{
+// 			display: block;
+// 		}
+// 	}
+// 	&_text{
+// 		display: none;
+// 		position: absolute;
+// 		top: 0;
+// 		left: 0;
+// 		right: 0;
+// 		bottom: 0;
+// 		color: #fff;
+// 		font-size: 20px;
+// 		z-index: 2;
+// 		text-align: center;
+// 		background-color: rgba($color-main, .85);
+// 		padding: 20px;
+// 		p{
+// 			color: #fff;
+// 			position: absolute;
+// 			top: 50%;
+// 			left: 50%;
+// 			transform: translate(-50%,-50%);
+// 			font-size: $font-size-small;
+// 			@media (min-width: 400px) {
+// 				font-size: $font-size-large;
+// 			}
+// 		}
+// 		// border-top: 4px solid #aaa;
+// 	}
+// }

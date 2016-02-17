@@ -1,0 +1,29 @@
+// @import "tools/tools";
+// @import "base/base";
+// @import "modules/modules";
+
+// @import "layout/page-portfolio/main";
+// @import "layout/page-portfolio/side-nav";
+
+// @import "layout/nav";
+// @import "main";
+
+
+
+%image{
+	min-height: 100%;
+	min-width: 100%;
+	height: initial;
+	width: initial;
+}
+.img-long{
+	@extend %image;
+	width: 100%;
+}
+.img-wide{
+	@extend %image;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
